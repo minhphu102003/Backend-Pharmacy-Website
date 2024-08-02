@@ -1,5 +1,5 @@
 import { Router } from "express";
-import connection from "../database.js";
+import connection from "../config/database.js";
 import { authenticateAdmin } from "../middlewares/authMiddleware.js";
 
 const router = Router();

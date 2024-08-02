@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from '../config.js';
-import connection from '../database.js';
+import connection from '../config/database.js';
 
 export const authenticateToken = (req, res, next) => {
     const authHeader = req.headers['authorization'];

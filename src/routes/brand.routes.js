@@ -1,5 +1,5 @@
 import { Router, json } from "express";
-import connection from "../database.js";
+import connection from "../config/database.js";
 import { LIMITBRAND } from "../config.js";
 
 

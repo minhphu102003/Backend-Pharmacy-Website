@@ -1,5 +1,5 @@
 import mysql2 from "mysql2";
-import { PASSWORD,USER,DATABASE,HOST } from "./config.js";
+import { PASSWORD,USER,DATABASE,HOST } from "../config.js";
 
 const connection = mysql2.createConnection({
     host: HOST,

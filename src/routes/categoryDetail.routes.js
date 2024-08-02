@@ -1,5 +1,5 @@
 import { Router } from "express";
-import connection from "../database.js";
+import connection from "../config/database.js";
 import { LIMITCATEGORYDETAIL } from "../config.js";
 
 const router = Router();

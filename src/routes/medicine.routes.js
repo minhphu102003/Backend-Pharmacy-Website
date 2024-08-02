@@ -1,5 +1,5 @@
 import { Router, query } from "express";
-import connection from "../database.js";
+import connection from "../config/database.js";
 import { authenticateAdmin } from "../middlewares/authMiddleware.js";
 import { LIMITMEDICINE } from "../config.js";
 

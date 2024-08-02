@@ -1,7 +1,7 @@
 import { Router, json } from 'express';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
-import connection from '../database.js';
+import connection from '../config/database.js';
 import { JWT_SECRET, JWT_EXPIRATION } from '../config.js';
 import  {sendOTP} from '../models/email.js';
 import generateOTP from '../models/randomOTP.js';

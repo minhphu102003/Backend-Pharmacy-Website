@@ -1,7 +1,7 @@
 import express, { query } from "express";
 import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "../config.js";
-import connection from "../database.js";
+import connection from "../config/database.js";
 import multer from 'multer';
 import { authenticateAdmin,authenticateToken } from "../middlewares/authMiddleware.js";
 
