@@ -18,6 +18,7 @@ import categoryBlogRoutes from "./routes/categoryBlog.routes.js";
 
 const app = express();
 
+
 export const otpStore = {};
 
 app.set("port",process.env.PORT|| 8080);
